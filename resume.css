@@ -1,5 +1,6 @@
 .body{
-    background-image: url('https://res.cloudinary.com/dnzjcn8ig/image/upload/v1724844295/l7tawkpblkv7tqttwyna.png');
+    background-color:  black;
+    color: white;
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,20 +30,40 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight:bold;
-    color: black; 
-    box-shadow: 10px 10px 25px #0009;       
+    color: rgb(81, 212, 103); 
+    box-shadow: 5px 5px 10px rgba(73, 69, 69, 0.6);       
 }
 
 .heading{
-   padding-left:350px;
-   padding-top: 250px;
-   font-size:10vh;
+   padding-left:150px;
+   padding-top: 150px;
+   font-size:11vh;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    float: left;
 }
 .home{
     display: flex;
+    
 }
+.home-left{
+    display: flex;
+    width: 50vw;
+}
+.home-right{
+    width: 50vw;
+    padding-left: 250px;
+    padding-top: 150px;
+   
+}
+.image{
+    height: 45vh;
+    opacity: .8;
+    background-attachment: fixed;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(83, 83, 83, 0.6);
+    
+}
+
 .About{
     display: flex;
     padding-left: 750px;
@@ -54,11 +75,26 @@ a{
     display: flex;
 }
 .About-para{
+    color:white;
     padding-left: 350px;
-    font-size: 25px;
+    font-size: 20px;
     align-items: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serift;
 }
 .experience{
     display: flex;
+}
+.exp-heading{
+    padding-left: 730px;
+    padding-top: 120px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.exp-left{
+    display: flex;
+    width: 50vw;
+}
+.exp-right{
+    display: flex;
+    width: 50vw;
 }
